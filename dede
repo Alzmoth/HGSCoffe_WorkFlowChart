@@ -1,0 +1,335 @@
+angular.module('veduBox.teacher').controller('veduBox.teacher.me.images.ctrl', [
+    '$rootScope', '$scope', '$state', '$filter', 'toaster', 'veduBox.service.image.srvc', 'ngTableParams', 'veduBox.common.enums', function (
+        _root, _sc, $state, $filter, toaster, image_srvc, ngTableParams, enums) {
+        "use strict";
+
+        _sc.images = [];
+        _sc.nodes = {};
+
+        _sc.loading = true;
+
+        /* Private members */
+        var _this = this;
+
+        _sc.imageId = _root.constants.helpers.number.isPositiveNumber($state.params.id) ? Number($state.params.id) : 0;
+        _sc.uploadedfile = {};
+        _sc.uploadImages=[];
+        _sc.message = 'Ok';
+        _sc.showLoading = false;
+        _sc.imagesName="";
+        _sc.image = {
+            id: 0,
+            text:'',
+            isPublic: false,
+            url: ''
+        }
+
+        /* Public members */
+        _sc.categories = [];
+        _sc.category = null;
+
+        /* Public methods */
+
+        _sc.openImage = function (url) {
+            window.open(url, '_empty');
+        };
+
+        _sc.saveSubcategory = function () {
+            _sc.loading = true;
+            _sc.category.ParentId = _sc.category.id;
+            _sc.category.id = 0;
+
+            image_srvc.saveCatagoy(_sc.category)
+                .success(function (data) {
+                    loadDetails();
+                    _this.category = null;
+                    _sc.loading = false;
+                    toaster.pop('success', '', $filter('translate')('common.savedSuccessfully'));
+                })
+                .error(function (data, status) {
+                    _root.handleError(toaster, data, status);
+                });
+        };
+
+        _sc.save = function (category) {
+            _sc.loading = true;
+            image_srvc.saveCatagoy(_sc.category)
+                .success(function (data) {
+                    loadDetails();
+                    _this.category = null;
+                    _sc.loading = false;
+                    toaster.pop('success', '', $filter('translate')('common.savedSuccessfully'));
+                })
+                .error(function (data, status) {
+                    _root.handleError(toaster, data, status);
+                });
+        };
+
+        _sc.delete = function () {
+            mscConfirm('', $filter('translate')('common.areYouSure'), function () {
+                mscClose();
+                image_srvc.deleteCategory(_sc.category.id)
+                    .success(function (data) {
+                        _sc.category.id = 0;
+                        loadDetails();
+                        _this.category = null;
+                        toaster.pop('success', '', $filter('translate')('common.deletedSuccessfully'));
+                    })
+                    .error(function (data, status) {
+                        _root.handleError(toaster, data, status);
+                    });
+            });
+        };
+
+        _sc.setFiles = function (element) {
+            _sc.loading=true
+            _sc.$apply(function (scope) {
+                for (var i = 0; i < element.files.length; i++) {
+                    console.log(element,"fa")
+                    scope.uploadedfile = element.files[i];
+                    _sc.message = readImage(scope.uploadedfile);
+                    _sc.uploadImages.push(scope.uploadedfile)
+                }
+
+                for (var i = 0; i < _sc.uploadImages.length; i++) { //Birden fazla eklenen resimler için isim yazdırma 
+                        if(i==0)
+                        _sc.imagesName+=_sc.uploadImages[i].name;
+                        else
+                        _sc.imagesName+=", "+_sc.uploadImages[i].name;
+                }
+                _sc.loading=false
+                scope.progressVisible = false
+            });
+        };
+
+        function readImage(file) {
+            var reader = new FileReader();
+            var image = new Image();
+            reader.readAsDataURL(file);
+            reader.onload = function (_file) {
+                image.src = _file.target.result;
+                image.onload = function () {
+                    if (~~(file.size / 1024) > 2048)
+                        _sc.message = $filter('translate')('routeStates.me.images.errSizeTooBig');
+
+                    //else if (this.width > 400)
+                    //    _sc.message = $filter('translate')('routeStates.me.images.errWidthTooBig');
+                    //else if (this.height > 300)
+                    //    _sc.message = $filter('translate')('routeStates.me.images.errHeightTooBig');
+
+                    else _sc.message = "Ok";
+                    console.log("okiki")
+                };
+                image.onerror = function () {
+                    _sc.message = $filter('translate')('routeStates.me.images.errInvalidFileType');
+                };
+            };
+
+        }
+
+        _sc.saveImage = function () {
+            var fileData = new FormData();
+            var formdata = new FormData();
+            _sc.uploadImages.forEach(element => {
+            _sc.loading=true
+                console.log(element)
+                
+                fileData.append("file", element);
+                if (_sc.message !== 'Ok') {
+                    //_sc.loading = false;
+                    toaster.pop('warning','', _sc.message);
+                    return;
+                } 
+               
+                    angular.forEach(_sc.uploadImages, function (value, key) {
+                        console.log(value,key,"buuuu")
+                        formdata.append(key, value);
+                    });
+                    console.log("asd")
+                });
+              console.log(formdata,"formdata")
+              console.log(fileData[1],"fileData")
+                image_srvc.upload(formdata)
+                    .success(function (data) {
+                        console.log(data,"data")
+                        // Uploaded to cloud
+                        if(_sc.image.text==""){
+                            _sc.image.text=element.name
+                        }
+                        _sc.image.url = data;
+                        _sc.image.ImageCategoryId = _sc.category.id;
+                        image_srvc.save(_sc.image)
+                            .success(function (data) {
+                                //_sc.loading = false;
+                                toaster.pop('success', '', $filter('translate')('common.savedSuccessfully'));
+                                _sc.reload();
+                                //$state.go('veduBox.admin.images');
+                            })
+                            .error(function (data, status) {
+                               // _sc.loading = false;
+                                _root.handleError(toaster, data, status);
+                                $state.go('veduBox.admin.images');
+                            });
+                    })
+                    .error(function (data) {
+                        toaster.pop('error', '', $filter('translate')('common.anErrorHasOccurred'));
+                        _sc.loading = false;
+                    });
+                    //fileData.remove()
+                    _sc.loading = false;
+      
+        _sc.imagesName=""
+        _sc.uploadImages=[];
+        _sc.loading = false;
+        $state.go('veduBox.admin.images');
+        };
+
+        _sc.deleteImage = function (id) {
+            mscConfirm('', $filter('translate')('common.areYouSure'), function () {
+                image_srvc.delete(id)
+                    .success(function (data) {
+                        for (var i = 0; i < _sc.images.length; i++) {
+                            if (_sc.images[i].id === id) {
+                                _sc.images.splice(i, 1);
+                                _sc.tableParams.reload();
+                                break;
+                            }
+                        }
+                        toaster.pop('success', '', $filter('translate')('common.deletedSuccessfully'));
+                    })
+                    .error(function (data, status) {
+                        _root.handleError(toaster, data, status);
+                    });
+            });
+        };
+
+        _sc.loadforNodes = function () {
+            _sc.loading = true;
+            image_srvc.getImagesForNodes(_sc.nodes)
+                .success(function (data) {
+                    _sc.images = null;
+                    _sc.images = data;
+                    _sc.tableParams.reload();
+                    $state.go('veduBox.teacher.me.images');
+                    _sc.loading = false;
+                })
+                .error(function (data) {
+                    _root.handleError(toaster, data, status);
+                    _sc.loading = false;
+                });
+        };
+
+        _sc.reload = function () {
+            _sc.loading = true;
+            image_srvc.getImagesForList()
+                .success(function (data) {
+                    _sc.images = null;
+                    _sc.images = data;
+                    _sc.tableParams.reload();
+                    _sc.loading = false;
+                    $state.go('veduBox.admin.images');
+                    _sc.loading = false;
+                })
+                .error(function (data) {
+                    _sc.loading = false;
+                    _root.handleError(toaster, data, status);
+                });
+            _sc.image = {
+                id: 0,
+                text: '',
+                isPublic: false,
+                url: ''
+            };
+        };
+
+        /* Private methods */
+        function loadDetails() {
+            image_srvc.getImagesForList()
+                .success(function (data) {
+                    _sc.images = data;
+                    _sc.loading = false;
+                })
+                .error(function (data) {
+                    _root.handleError(toaster, data, status);
+                });
+
+            _sc.tableParams = new ngTableParams({
+                page: 1
+                , count: 15
+                , filter: {
+                    text: ''
+                }
+                , sorting: {
+                    createDate: 'desc'
+                }
+            }, {
+                    total: _sc.images.length,
+                    getData: function ($defer, params) {
+                        var filteredData = $filter('filter')(_sc.images, _sc.filter);
+                        var orderedData = params.sorting()
+                            ? $filter('orderBy')(filteredData, params.orderBy())
+                            : filteredData;
+                        params.total(orderedData.length);
+                        $defer.resolve(orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count()));
+                    },
+                    counts: [10, 15, 25, 50, 100]
+                });
+            _sc.$watch("filter.$", function () {
+                if (_sc.filter)
+                    _sc.tableParams.reload();
+            });
+
+            image_srvc.getCategoriesForImage()
+                .success(function (data) {
+                    _this.categories = data.categories;
+
+                    $('#jsTreeCategories').jstree('destroy');
+                    $('#jsTreeCategories').jstree({
+                        'plugins': ["wholerow", "types"],
+                        'core': {
+                            "themes": {
+                                "responsive": true
+                            },
+                            'data': _this.categories
+                        },
+                        "types": {
+                            "default": {
+                                "icon": "fa fa-folder icon-state-warning icon-lg"
+                            },
+                            "file": {
+                                "icon": "fa fa-file icon-state-warning icon-lg"
+                            }
+                        }
+                    });
+
+                    $('#jsTreeCategories')
+                        // listen for event
+                        .on('select_node.jstree', function (e, data) {
+
+                            _sc.nodes = data.node.children_d;
+                            _sc.nodes.push(data.selected[0]);
+
+                            _sc.category = {
+                                id: data.selected[0],
+                                name: data.instance.get_node(data.selected[0]).text
+                            };
+                            _sc.loadforNodes();
+                            _sc.$apply();
+                        })
+                        // create the instance
+                        .jstree();
+
+                })
+                .error(function (data, status) {
+                    _root.handleError(toaster, data, status);
+                });
+        };
+
+
+
+        /* Constructor */
+        init();
+        function init() {
+            loadDetails();
+        }
+    }]);
