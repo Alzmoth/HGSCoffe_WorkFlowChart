@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T09:57:11.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ELRWJEQfF2TEZxuFDTbx" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T13:18:08.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="6rcCWvONS4yI1HhD4Rak" version="13.7.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1808" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,10 +13,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="HasKahve ürünleri" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="190" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="QJCMwyK5FLPUJV6oHXIf-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Karışım Türk Kahveleri" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="340" y="190" width="120" height="50" as="geometry" />
+          <mxGeometry x="736" y="190" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-0" target="FN1DWMYSlp5COyNPd0MA-5">
           <mxGeometry relative="1" as="geometry" />
@@ -38,8 +41,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-64.97142857142853" y="380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-70" y="310" />
-              <mxPoint x="-70" y="380" />
+              <mxPoint x="-100" y="310" />
+              <mxPoint x="-100" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,72 +52,396 @@
         <mxCell id="FN1DWMYSlp5COyNPd0MA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-5" target="FN1DWMYSlp5COyNPd0MA-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-5" value="Kavurma Makinesi" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-5" value="&lt;b&gt;Kavurma Makinesi&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-16" target="FN1DWMYSlp5COyNPd0MA-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-16" value="Kavurma Deposu&lt;br&gt;(120Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-140" y="380" width="130" height="70" as="geometry" />
+          <mxGeometry x="-160" y="380" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-18" target="FN1DWMYSlp5COyNPd0MA-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-18" value="Kavurma Makinası" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-18" value="&lt;b&gt;Kavurma Aşaması&lt;/b&gt;&lt;br&gt;(Saatlik&lt;br&gt;&amp;nbsp;270 kg üretim)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5" y="380" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-20" target="FN1DWMYSlp5COyNPd0MA-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="480" />
-              <mxPoint x="220" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-20" value="Kahve çekirdeği&lt;br&gt;Soğutma&lt;br&gt;Ünitesi(100Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="380" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-26" target="FN1DWMYSlp5COyNPd0MA-30">
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-20" target="FN1DWMYSlp5COyNPd0MA-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-26" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Helezon" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="500" width="90" height="80" as="geometry" />
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-20" value="Kahve çekirdeği&lt;br&gt;Soğutma&lt;br&gt;Ünitesi(100Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FN1DWMYSlp5COyNPd0MA-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.905;exitY=0.516;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-26" target="FN1DWMYSlp5COyNPd0MA-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-26" value="&amp;nbsp;Helezon&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205" y="480" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-30" target="FN1DWMYSlp5COyNPd0MA-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-30" value="Kahve Değirmeni&lt;br&gt;(3 Kahve değirmeni)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-30" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Kahve Değirmeni&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(3 Kahve değirmeni)&lt;br&gt;1-Saatlik 100kg&lt;br&gt;2-Saatlik 100kg&lt;br&gt;3-Saatlik 70kg&lt;br&gt;Toplam 270kg&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-5" y="545" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-35" target="FN1DWMYSlp5COyNPd0MA-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-35" value="Su soğutmalı&lt;br&gt;Helezon&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-145" y="510" width="110" height="60" as="geometry" />
+          <mxGeometry x="-155" y="570" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-38" target="FN1DWMYSlp5COyNPd0MA-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-38" value="Kahve Soğutma depoları" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-150" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-43" target="FN1DWMYSlp5COyNPd0MA-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="670" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-43" target="FN1DWMYSlp5COyNPd0MA-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-43" value="Paketleme Makinesi&lt;br&gt;(Saatlik Üretim)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-43" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Paketleme Makinesi&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Saatlik 240 kg)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2.5" y="700" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-45" target="FN1DWMYSlp5COyNPd0MA-49">
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-45" target="FN1DWMYSlp5COyNPd0MA-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FN1DWMYSlp5COyNPd0MA-45" value="Hazırlanan Kahvelerin&lt;br&gt;&amp;nbsp;Kolileme aşaması" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="730" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="690" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FN1DWMYSlp5COyNPd0MA-49" value="Satışa Hazır" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="850" width="120" height="80" as="geometry" />
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-49" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Satışa Hazır&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Mamül Stok Alanı)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FN1DWMYSlp5COyNPd0MA-52" target="FN1DWMYSlp5COyNPd0MA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FN1DWMYSlp5COyNPd0MA-52" value="Çekirdek Bekletme Deposu&lt;br&gt;(3 Ton)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-1" target="QJCMwyK5FLPUJV6oHXIf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="415" />
+            </Array>
+            <mxPoint x="486" y="360.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-1" value="Kahve Deposu" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="270" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="661.0285714285715" y="379.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="626" y="310" />
+              <mxPoint x="626" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-5" target="QJCMwyK5FLPUJV6oHXIf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-5" target="QJCMwyK5FLPUJV6oHXIf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-5" value="&lt;b&gt;Kavurma Makinesi&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="736" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-7" target="QJCMwyK5FLPUJV6oHXIf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-7" value="Kavurma Deposu&lt;br&gt;(120Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="566" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-9" target="QJCMwyK5FLPUJV6oHXIf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-9" value="&lt;b&gt;Kavurma Aşaması&lt;/b&gt;&lt;br&gt;(Saatlik&lt;br&gt;&amp;nbsp;270 kg üretim)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="731" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-11" target="QJCMwyK5FLPUJV6oHXIf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-11" value="Kahve çekirdeği&lt;br&gt;Soğutma&lt;br&gt;Ünitesi(100Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="906" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QJCMwyK5FLPUJV6oHXIf-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="956" y="579.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.905;exitY=0.516;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-14" target="QJCMwyK5FLPUJV6oHXIf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-14" value="&amp;nbsp;Helezon&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="931" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-16" target="QJCMwyK5FLPUJV6oHXIf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-16" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Kahve Değirmeni&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(3 Kahve değirmeni)&lt;br&gt;1-Saatlik 100kg&lt;br&gt;2-Saatlik 100kg&lt;br&gt;3-Saatlik 70kg&lt;br&gt;Toplam 270kg&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="721" y="545" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-19" target="QJCMwyK5FLPUJV6oHXIf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-19" value="Çekirdek Bekletme Deposu&lt;br&gt;(3 Ton)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="906" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-21" target="QJCMwyK5FLPUJV6oHXIf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-21" value="Kahve Çeşitlerini Karıştırma Ünitesi" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="516" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-23" target="QJCMwyK5FLPUJV6oHXIf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-23" value="Helezon&amp;nbsp;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="546" y="700" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-25" target="QJCMwyK5FLPUJV6oHXIf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-25" value="Kahve Paketleme Makinesi&lt;br&gt;(Saatlik 240 Kg)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="731" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJCMwyK5FLPUJV6oHXIf-28" target="QJCMwyK5FLPUJV6oHXIf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-28" value="Hazırlanan Kahvelerin&lt;br&gt;&amp;nbsp;Kolileme aşaması" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="906" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJCMwyK5FLPUJV6oHXIf-29" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Satışa Hazır&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Mamül Stok Alanı)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="906" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4eod7DB5-IOEEllZBxf7" name="Page-2">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="riS9C14CK8POihPWUfFx-0" />
+        <mxCell id="riS9C14CK8POihPWUfFx-1" parent="riS9C14CK8POihPWUfFx-0" />
+        <mxCell id="riS9C14CK8POihPWUfFx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-3" target="riS9C14CK8POihPWUfFx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-3" value="Türk Kahvesi&lt;br&gt;Üretim Aşamaları" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="10" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-5" target="riS9C14CK8POihPWUfFx-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-5" value="Kahve Deposu" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="-260" y="265" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-64.97142857142853" y="379.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="310" />
+              <mxPoint x="-100" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-9" target="riS9C14CK8POihPWUfFx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-9" target="riS9C14CK8POihPWUfFx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-9" value="&lt;b&gt;Kavurma Makinesi&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-11" target="riS9C14CK8POihPWUfFx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-11" value="Kavurma Deposu&lt;br&gt;(120Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="-160" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-13" target="riS9C14CK8POihPWUfFx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-13" value="&lt;b&gt;Kavurma Aşaması&lt;/b&gt;&lt;br&gt;(Saatlik&lt;br&gt;&amp;nbsp;270 kg üretim)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="5" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-15" target="riS9C14CK8POihPWUfFx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-15" value="Kahve çekirdeği&lt;br&gt;Soğutma&lt;br&gt;Ünitesi(100Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="180" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" target="riS9C14CK8POihPWUfFx-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="579.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-18" target="riS9C14CK8POihPWUfFx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-18" value="&amp;nbsp;Helezon&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="205" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-20" target="riS9C14CK8POihPWUfFx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-20" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Kahve Değirmeni&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(3 Kahve değirmeni)&lt;br&gt;1-Saatlik 100kg&lt;br&gt;2-Saatlik 100kg&lt;br&gt;3-Saatlik 70kg&lt;br&gt;Toplam 270kg&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="-5" y="545" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-22" target="riS9C14CK8POihPWUfFx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-22" value="Su soğutmalı&lt;br&gt;Helezon&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="-155" y="570" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-24" target="riS9C14CK8POihPWUfFx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-24" value="Kahve Soğutma depoları" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="-160" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-26" target="riS9C14CK8POihPWUfFx-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72.5" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-26" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Paketleme Makinesi&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Saatlik 240 kg)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="2.5" y="700" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-28" target="riS9C14CK8POihPWUfFx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-28" value="Hazırlanan Kahvelerin&lt;br&gt;&amp;nbsp;Kolileme aşaması" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="5" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-29" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Satışa Hazır&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Mamül Stok Alanı)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="5" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="riS9C14CK8POihPWUfFx-1" source="riS9C14CK8POihPWUfFx-31" target="riS9C14CK8POihPWUfFx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riS9C14CK8POihPWUfFx-31" value="Çekirdek Bekletme Deposu&lt;br&gt;(3 Ton)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="riS9C14CK8POihPWUfFx-1">
+          <mxGeometry x="180" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uAEqvq5cGVoUVTdXB_fI" name="Page-3">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-0" />
+        <mxCell id="2DJf2unJD7haOzg4YgF8-1" parent="2DJf2unJD7haOzg4YgF8-0" />
+        <mxCell id="2DJf2unJD7haOzg4YgF8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-3" target="2DJf2unJD7haOzg4YgF8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-3" value="Karışım Türk Kahveleri" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="700" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-5" target="2DJf2unJD7haOzg4YgF8-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="415" />
+            </Array>
+            <mxPoint x="450" y="360.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-5" value="Kahve Deposu" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="414" y="270" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625.028571428571" y="379.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="310" />
+              <mxPoint x="590" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-9" target="2DJf2unJD7haOzg4YgF8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-9" target="2DJf2unJD7haOzg4YgF8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-9" value="&lt;b&gt;Kavurma Makinesi&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="700" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-11" target="2DJf2unJD7haOzg4YgF8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-11" value="Kavurma Deposu&lt;br&gt;(120Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="530" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-13" target="2DJf2unJD7haOzg4YgF8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-13" value="&lt;b&gt;Kavurma Aşaması&lt;/b&gt;&lt;br&gt;(Saatlik&lt;br&gt;&amp;nbsp;270 kg üretim)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="695" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-15" target="2DJf2unJD7haOzg4YgF8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-15" value="Kahve çekirdeği&lt;br&gt;Soğutma&lt;br&gt;Ünitesi(100Kg)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="870" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" target="2DJf2unJD7haOzg4YgF8-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.905;exitY=0.516;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-18" target="2DJf2unJD7haOzg4YgF8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-18" value="&amp;nbsp;Helezon&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="895" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-20" target="2DJf2unJD7haOzg4YgF8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-20" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Kahve Değirmeni&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(3 Kahve değirmeni)&lt;br&gt;1-Saatlik 100kg&lt;br&gt;2-Saatlik 100kg&lt;br&gt;3-Saatlik 70kg&lt;br&gt;Toplam 270kg&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="685" y="545" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-22" target="2DJf2unJD7haOzg4YgF8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-22" value="Çekirdek Bekletme Deposu&lt;br&gt;(3 Ton)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="870" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-24" target="2DJf2unJD7haOzg4YgF8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-24" value="Kahve Çeşitlerini Karıştırma Ünitesi" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="480" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-26" target="2DJf2unJD7haOzg4YgF8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-26" value="Helezon&amp;nbsp;&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="510" y="700" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-28" target="2DJf2unJD7haOzg4YgF8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-28" value="Kahve Paketleme Makinesi&lt;br&gt;(Saatlik 240 Kg)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="695" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2DJf2unJD7haOzg4YgF8-1" source="2DJf2unJD7haOzg4YgF8-30" target="2DJf2unJD7haOzg4YgF8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-30" value="Hazırlanan Kahvelerin&lt;br&gt;&amp;nbsp;Kolileme aşaması" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="695" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJf2unJD7haOzg4YgF8-31" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Satışa Hazır&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Mamül Stok Alanı)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2DJf2unJD7haOzg4YgF8-1">
+          <mxGeometry x="695" y="940" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
